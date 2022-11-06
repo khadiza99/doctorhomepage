@@ -23,6 +23,9 @@
   }
 
   /* service */
+  .services_wrapper .card {
+    padding: 1.875rem 1.25rem;
+  }
 }
 
 @media (max-width: 991px) {
@@ -33,32 +36,26 @@
   .main-btn {
     font-size: 0.875rem;
   }
-
   h1 {
     font-size: 2.8125rem;
     margin-bottom: 0.625rem;
   }
-
   h2 {
     font-size: 1.875rem;
   }
-
   h3 {
     font-size: 1.5625rem;
   }
-
   h4 {
     font-size: 1.25rem;
   }
   h5 {
     font-size: 1.125rem;
   }
-
   p {
     font-size: 0.875rem;
     line-height: 1.35rem;
   }
-
   .card {
     padding: 1.875rem 1rem;
   }
@@ -71,10 +68,10 @@
     text-align: center;
   }
   .header_wrapper .nav-item .nav-link {
-    margin-top: 9375rem;
+    margin-top: 0.9375rem;
   }
 
-  /*  banner */
+  /* banner */
   .banner_wrapper p {
     max-width: 100%;
   }
@@ -90,6 +87,14 @@
   }
 
   /* services */
+  .services_wrapper .card {
+    padding: 1.875rem 0.875rem;
+  }
+
+  /* blog */
+  .blog_wrapper .card .blog-content {
+    padding: 1.875rem 0.625rem;
+  }
 }
 
 @media (max-width: 767px) {
@@ -97,7 +102,6 @@
   .main-btn {
     font-size: 0.875rem;
   }
-
   h1 {
     font-size: 2.5rem;
     margin-bottom: 2.5rem;
@@ -107,19 +111,29 @@
   }
 
   /* service */
+  .services_wrapper .card {
+    text-align: center;
+  }
 
   /* blog */
+  .blog_wrapper .card .blog-content {
+    margin: 0;
+  }
 
   /* footer */
+  .footer_wrapper {
+    padding-bottom: 0;
+  }
+  .footer_wrapper > div {
+    padding: 0 1.875rem;
+  }
 }
 
 @media (max-width: 360px) {
-  /* custom css */
-  .card {
-    padding: 2.5rem 1.875rem;
+  /* Services */
+  .services_wrapper .icon-box {
+    margin-bottom: 0.9375rem;
   }
-
-  /* top banner */
 
   /* about */
   .about_wrapper .about-animate {
@@ -128,7 +142,6 @@
   .about_wrapper .card {
     padding: 1.25rem 0.3125rem;
   }
-
   .about_wrapper .about-clinic:nth-child(2),
   .about_wrapper .about-clinic:nth-child(4) {
     padding-left: 0.625rem;

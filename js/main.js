@@ -1,4 +1,4 @@
-//Header Scroll
+// Header Scroll
 let nav = document.querySelector('.navbar');
 window.onscroll = function () {
   if (document.documentElement.scrollTop > 100) {
